@@ -4,7 +4,13 @@ Obrigado pelo interesse. Issues e PRs são bem-vindos.
 
 ## Antes de abrir um PR
 
+O arquivo `.nvmrc` define o Node 20. Com o [nvm](https://github.com/nvm-sh/nvm) instalado,
+execute os comandos abaixo na raiz do repositório para instalar e selecionar essa versão.
+
 ```bash
+nvm install
+nvm use
+
 npm install
 cd web && npm install && cd ..
 
